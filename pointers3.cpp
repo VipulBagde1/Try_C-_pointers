@@ -4,7 +4,7 @@ int sumofdigit(int arr[]);
 int main (){
 
     int arr[]={1,32,12,3,2};
-    int size1 = sizeof(arr);
+    int size1 = sizeof(arr);//we will need to calculate the size here and pass it seperatly
    int total= sumofdigit(arr);
     std::cout<<total<<"\n"<<size1;
 }
