@@ -5,10 +5,10 @@ void print(char *C){
 
     while(*C != '\0'){
 
-        printf("%c",*C);
+        std::cout<<*C;
         C++;
     }
-printf("\n");
+
 }
 
 int main(){
